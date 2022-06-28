@@ -149,14 +149,14 @@ const imageLightOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
-    { text: 'Custom', value: 'https://og-image-v2-22aalhb8m-slavakurilyak.vercel.app/black.svg' },
+    { text: 'Custom', value: "https://og-image-custom.vercel.app/black.svg" },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
-    { text: 'Custom', value: 'https://og-image-v2-22aalhb8m-slavakurilyak.vercel.app/white.svg' },
+    { text: 'Custom', value: "https://og-image-custom.vercel.app/white.svg" },
 ];
 
 interface AppState extends ParsedRequest {
