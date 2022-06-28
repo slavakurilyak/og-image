@@ -1,6 +1,6 @@
 import type { ParsedRequest, Theme, FileType } from '../api/_lib/types';
-// import White from './white.svg';
-// import Black from './black.svg';
+// import White from 'white.svg';
+// import Black from 'black.svg';
 
 
 const { H, R, copee } = (window as any);
@@ -152,7 +152,7 @@ const imageLightOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
-    { text: 'Custom', value: "https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg"},
+    { text: 'Custom', value: "https://images.unsplash.com/photo-1572375992501-4b0892d50c69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80"},
 ];
 
 const imageDarkOptions: DropdownOption[] = [
