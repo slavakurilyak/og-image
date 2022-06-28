@@ -1,4 +1,8 @@
 import type { ParsedRequest, Theme, FileType } from '../api/_lib/types';
+// import White from './white.svg';
+// import Black from './black.svg';
+
+
 const { H, R, copee } = (window as any);
 let timeout = -1;
 
@@ -148,15 +152,23 @@ const imageLightOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: 'Custom', value: "https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg"},
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
+    { text: 'Custom', value: "https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg"},
 ];
 
+// Black
+
+// https://danmarshall.github.io/google-font-to-svg-path/?font-select=La+Belle+Aurore&font-variant=regular&input-union=false&input-filled=true&input-kerning=true&input-separate=false&input-text=slavakurilyak.eth&input-bezier-accuracy=&dxf-units=cm&input-size=100&input-fill=%23000000&input-stroke=%23000000&input-strokeWidth=0.25mm
+
+// White
+
+// https://danmarshall.github.io/google-font-to-svg-path/?font-select=La+Belle+Aurore&font-variant=regular&input-union=false&input-filled=true&input-kerning=true&input-separate=false&input-text=slavakurilyak.eth&input-bezier-accuracy=&dxf-units=cm&input-size=100&input-fill=%23ffffff&input-stroke=%23ffffff&input-strokeWidth=0.25mm
 
 interface AppState extends ParsedRequest {
     loading: boolean;
